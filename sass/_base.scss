@@ -21,6 +21,19 @@ Grey dark 3: #999
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+     box-sizing: border-box;
+     font-size: 62.5%; //1rem = 10px
+}
+
 body {
-    background-color: orangered;
+    font-family: "Open Sansa" sana-serif;
+    font-weight: 4000;
+    line-height: 1.6;
 }
