@@ -26,9 +26,11 @@ Grey dark 3: #999
     --color-grey-light-3: #f0eeee;
     --color-grey-light-4: #ccc;
 
-    --color-grey-dark: #333;
-    --color-grey-dark: #777;
-    --color-grey-dark: #999;
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
 }
 
 * {
@@ -54,6 +56,6 @@ body {
     background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
     background-size: cover;
     background-repeat: no-repeat;
-    
+
     min-height: 100vh;
 }
