@@ -153,7 +153,7 @@
 
     }
 
-    &__item:hover::before ,
+    &__item:hover::before,
     &__item--active::before {
         transform: scaleY(1);
         width: 100%;
@@ -168,7 +168,7 @@
         color: var(--color-grey-light-3);
         text-decoration: none;
         text-transform: uppercase;
-        position: relative;//z-index must have position property to work
+        position: relative; //z-index must have position property to work
         display: block;
         padding: 1.5rem 3rem;
         z-index: 10;
@@ -194,4 +194,46 @@
     color: var(--color-grey-light-4);
     text-align: center;
     padding: 2.5rem;
+}
+
+////////////////////////////////////////////
+//GALLERY
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+////////////////////////////////////////////
+//GALLERY
+.overview {
+    display: flex;
+
+    &__heading {}
+
+    &__stars {
+        margin-right: auto; //usefull in flexbox
+
+    }
+
+    &__icon-star,
+    &__icon-location {
+        height: 1.75rem;
+        width: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__location {}
+
+    &__rating {}
+
+    &__rating--average {}
+
+    &__rating-count {}
+
+
+
 }
