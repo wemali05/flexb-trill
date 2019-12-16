@@ -31,6 +31,10 @@ Grey dark 3: #999
     --color-grey-dark-3: #999;
 
     --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .6);
+
+    --line: 1px solid var(--color-grey-light-2);
+
 }
 
 * {
@@ -50,7 +54,7 @@ html {
 }
 
 body {
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-grey-dark-2);
