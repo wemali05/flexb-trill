@@ -585,10 +585,12 @@
 
     &:hover &__visible {
         transform: translateY(100%);
+        visibility: hidden;
     }
 
     &:hover &__invisible {
         top: 0;
+        visibility: visible;
     }
 
     &:focus {
